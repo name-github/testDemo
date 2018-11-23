@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - 接口测试</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>接口测试</h1>
+<p>
+  Test duration: 1.338s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">DataSourceControllerTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=oracleDB, ds_type=1, postData={"newDataBaseConnInfo":{"dataBaseType":1,"address":"192.168.251.110","port":3306,"dataBaseName":"oracle11g","userName":"root","password":"123456"},"newDataSourceBasicInfo":{"dataSourceType":1,"dataSourceName":"oracleDB"},"newFilesConnInfo":{},"newInterfaceConnInfo":{}}, responseData={"resultData":"","resultState":"error","resultCode":"308"}, testType=新增数据库类型的数据源信息信息重复, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:{&quot;dataSourceId&quot;:&quot;c0d49182ae614df8b1cb0861e9d5f4c4&quot;},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testAddnew(DataSourceControllerTest.java:151)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:589)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.142s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=, ds_type=1, postData={"newDataBaseConnInfo":{"dataBaseType":1,"address":"192.168.251.110","port":3306,"dataBaseName":"oracle11g","userName":"root","password":"123456"},"newDataSourceBasicInfo":{"dataSourceType":1,"dataSourceName":""},"newFilesConnInfo":{"filePath":"","fileType":1},"newInterfaceConnInfo":{"interfaceType":1,"interfaceAddress":"host"}}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源名称为空, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:{&quot;dataSourceId&quot;:&quot;d1a180af095b4142904b15f7b3ca8585&quot;},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testAddnew(DataSourceControllerTest.java:151)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:589)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取全部数据源索引信息列表">testfindallindex</span>
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"pageNum":"0","pageSize":"5"}, responseData={"resultData":"","resultState":"error","resultCode":"305"}, testType=请求第0页, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;305&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:7,&quot;list&quot;:[{&quot;dataSourceId&quot;:&quot;37c66260ef804b7d9f0efa36e2b9cfa9&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-13 13:39:16&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;c748a4441aad42a0bb871d442c3f903d&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;0415e820718f4d61aff3b225d4e8240b&quot;,&quot;dataSourceName&quot;:&quot;postgre11C&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;6aaa37ba953747cf929fe628cac4e8f0&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;2fa7eede2dd34bd888ef41d93da2b20b&quot;,&quot;dataSourceName&quot;:&quot;testdbsource&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;}],&quot;pageNum&quot;:1,&quot;pageSize&quot;:5,&quot;total&quot;:32},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testfindallindex(DataSourceControllerTest.java:500)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取全部数据源索引信息列表">testfindallindex</span>
+      </td>
+  <td class="duration">
+    0.012s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"pageNum":"10","pageSize":"0"}, responseData={"resultData":"","resultState":"error","resultCode":"305"}, testType=请求的页显示数目为0, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;305&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:0,&quot;list&quot;:[{&quot;dataSourceId&quot;:&quot;37c66260ef804b7d9f0efa36e2b9cfa9&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-13 13:39:16&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;c748a4441aad42a0bb871d442c3f903d&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;0415e820718f4d61aff3b225d4e8240b&quot;,&quot;dataSourceName&quot;:&quot;postgre11C&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;6aaa37ba953747cf929fe628cac4e8f0&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;2fa7eede2dd34bd888ef41d93da2b20b&quot;,&quot;dataSourceName&quot;:&quot;testdbsource&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;d34b755486e64eaf943d93ed463d4cd9&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;e5961950904146e485f65f46678f624c&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;30a59d0b83ad4c179928d8989702e20f&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;d34b755486e64eaf943d93ed463d4c88&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;&quot;,&quot;remarks&quot;:&quot;xinzeng&quot;},{&quot;dataSourceId&quot;:&quot;1d0695f2deaa46a296f4568ad6893df2&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-13 13:39:16&quot;,&quot;remarks&quot;:&quot;测试验证&quot;},{&quot;dataSourceId&quot;:&quot;b8e5e352c86848cfaa36f2eafe7c44ea&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-13 13:39:16&quot;,&quot;remarks&quot;:&quot;测试备注&quot;},{&quot;dataSourceId&quot;:&quot;19b5deba5add49a58aacbd9a21f44ea5&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;2018-07-24 10:08:20&quot;,&quot;remarks&quot;:&quot;wenjianleix&quot;},{&quot;dataSourceId&quot;:&quot;e5961950904146e485f65f46678f6666&quot;,&quot;dataSourceName&quot;:&quot;initerfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-26 16:47:08&quot;,&quot;remarks&quot;:&quot;新增接口&quot;},{&quot;dataSourceId&quot;:&quot;1234567890123456789aa&quot;,&quot;dataSourceName&quot;:&quot;oracle11g&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:08:20&quot;,&quot;remarks&quot;:&quot;完整数据&quot;},{&quot;dataSourceId&quot;:&quot;34e56cdc82944d1a9ccd4cea5a98b6d7&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;99673b7ba2954d87a4fca5687b84cc71&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;92e94ce46c1046cf803dedfe2e961e22&quot;,&quot;dataSourceName&quot;:&quot;postgre11C&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;affc3e263c8940e0ac970a80717b309f&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;ff5d931b04194da9ad7b8092f95da95c&quot;,&quot;dataSourceName&quot;:&quot;testdbsource&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;3f4591fd82814a788a2728a6913d07ce&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;c0f01744e8e94603bbcac81a8d8776d4&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;4d828692f9ed48028646a7d2ab2f87b9&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;d1a180af095b4142904b15f7b3ca8585&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:04&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;3e9cd6bc094b4c2a925e9f1ffb9dd238&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:04&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;e62dcd525742468392b9f083aa4fd838&quot;,&quot;dataSourceName&quot;:&quot;postgre11C&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;2798d5fb8782421385f1e4595be1c6b7&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;338da9ea84b540198ecb6171a73f3000&quot;,&quot;dataSourceName&quot;:&quot;testdbsource&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;925bffa0e0e343eaadcf68229a1ee05c&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;377b9f86710144a3a5b4bd821e84c0d8&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;c0d49182ae614df8b1cb0861e9d5f4c4&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;db49b38437dd43f1bdc4820db38ce17f&quot;,&quot;dataSourceName&quot;:&quot;Rename@DB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;fc33215f40dd4837aef3c86bfb5f033d&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 10:08:20&quot;,&quot;remarks&quot;:&quot;&quot;}],&quot;pageNum&quot;:0,&quot;pageSize&quot;:0,&quot;total&quot;:32},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testfindallindex(DataSourceControllerTest.java:500)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取全部数据源索引信息列表">testfindallindex</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"pageNum":"10","pageSize":"5"}, responseData={"resultData":"","resultState":"error","resultCode":"305"}, testType=请求的页码值目前不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;305&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:7,&quot;list&quot;:[{&quot;dataSourceId&quot;:&quot;db49b38437dd43f1bdc4820db38ce17f&quot;,&quot;dataSourceName&quot;:&quot;Rename@DB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;fc33215f40dd4837aef3c86bfb5f033d&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 10:08:20&quot;,&quot;remarks&quot;:&quot;&quot;}],&quot;pageNum&quot;:7,&quot;pageSize&quot;:5,&quot;total&quot;:32},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testfindallindex(DataSourceControllerTest.java:500)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源全部信息">testgetallinfobyid</span>
+      </td>
+  <td class="duration">
+    0.008s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=dcf669b9aa774b21a1f277200c3a0f93, ds_Type=1, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源类型为1（数据库）,数据源id不存在或错误, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found []</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testgetallinfobyid(DataSourceControllerTest.java:755)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源全部信息">testgetallinfobyid</span>
+      </td>
+  <td class="duration">
+    0.046s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=1234567890123456789aa, ds_Type=1, responseData=查询结果与数据库值对比验证, testType=数据源类型为1，数据源中有关联数据表及字段信息, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [wwww] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedZD(compared.java:204)<br />
+              DataSourceControllerTest.testgetallinfobyid(DataSourceControllerTest.java:846)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源全部信息">testgetallinfobyid</span>
+      </td>
+  <td class="duration">
+    0.010s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=657028723fa74545b7771b4ed76a0254, ds_Type=3, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源类型为3（接口）,数据源id不存在或错误, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found []</b></a><br />
+    <div class="stackTrace" id="exception-7">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testgetallinfobyid(DataSourceControllerTest.java:755)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源全部信息">testgetallinfobyid</span>
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=9b4e0943abab469eb190f49010defb9c, ds_Type=2, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源类型为2（文件）,数据源id不存在或错误, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found []</b></a><br />
+    <div class="stackTrace" id="exception-8">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testgetallinfobyid(DataSourceControllerTest.java:755)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源基本属性信息">testgetbasicinfobyid</span>
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id为空, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;301&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-9">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testgetbasicinfobyid(DataSourceControllerTest.java:650)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源基本属性信息">testgetbasicinfobyid</span>
+      </td>
+  <td class="duration">
+    0.013s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=1d0695f2deaa46a296f4568ad6893111, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id不存在或错误, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-10', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found []</b></a><br />
+    <div class="stackTrace" id="exception-10">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testgetbasicinfobyid(DataSourceControllerTest.java:650)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="移除指定数据源">testremove</span>
+      </td>
+  <td class="duration">
+    0.056s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceIds={"dataSourceIds":"1234567890123456789"}, responseData=数据源移除成功, testType=移除数据源id中有关联表及字段, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-11', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [0] but found [1]</b></a><br />
+    <div class="stackTrace" id="exception-11">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:652)<br />
+              org.testng.Assert.assertEquals(Assert.java:662)<br />
+              DataSourceControllerTest.testremove(DataSourceControllerTest.java:194)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="移除指定数据源">testremove</span>
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceIds={"dataSourceIds":""}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id为空, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-12', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-12">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testremove(DataSourceControllerTest.java:180)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="移除指定数据源">testremove</span>
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceIds={"dataSourceIds":"12345555"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id错误或不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-13', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-13">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testremove(DataSourceControllerTest.java:180)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="重命名指定数据源">testrename</span>
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"1234567890123456789","dataSourceName":"oracleDB"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id错误或不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-14', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-14">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testrename(DataSourceControllerTest.java:248)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="重命名指定数据源">testrename</span>
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"23a336a000a84d27bdc2f5e167e229c2","dataSourceName":"testdbsource"}, responseData={"resultData":"","resultState":"error","resultCode":"308"}, testType=数据源名称与已有的一样, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-15', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-15">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testrename(DataSourceControllerTest.java:248)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据库类型数据源连接信息">testupdatedbconninfo</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"b8e5e352c86848cfaa36f2eafe7c44ea","dataBaseType":3,"address":"","port":1366,"dataBaseName":"oracle12c","userName":"地址为空","password":"123@qwe"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据库连接信息有字段为空, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-16', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-16">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdatedbconninfo(DataSourceControllerTest.java:311)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:589)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据库类型数据源连接信息">testupdatedbconninfo</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"f6b3c76d39d6406090d586d867760246","dataBaseType":1,"address":"192.168.251.110","port":3306,"dataBaseName":"oracle11g","userName":"root","password":"123456"}, responseData={"resultData":"","resultState":"error","resultCode":"308"}, testType=更新的数据库连接信息重复, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-17', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-17">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdatedbconninfo(DataSourceControllerTest.java:311)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:589)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据库类型数据源连接信息">testupdatedbconninfo</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"4092419b07954459b36be12ba4274670","dataBaseType":3,"address":"192.168.123.1","port":1366,"dataBaseName":"oracle12c","userName":"testoracle12c","password":"123@qwe"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id错误或不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-18', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-18">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdatedbconninfo(DataSourceControllerTest.java:311)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:589)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据库类型数据源连接信息">testupdatedbconninfo</span>
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"97ba987b1326489ba4dd0c7dfb1990be","dataBaseType":3,"address":"192.168.123.1","port":1366,"dataBaseName":"oracle12c","userName":"testoracle12c","password":"123@qwe"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id在数据源基本信息表中不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-19', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-19">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdatedbconninfo(DataSourceControllerTest.java:311)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)<br />
+              org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:589)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据文件类型数据源连接信息">testupdatefileconninfo</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"d34b755486e64eaf943d93ed463d4c66","fileType":3,"filePath":"E:/soft/null"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=文件数据源id在数据源基本信息表中不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-20', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-20">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdatefileconninfo(DataSourceControllerTest.java:366)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据文件类型数据源连接信息">testupdatefileconninfo</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"d34b755486e64eaf943d93ed463d4c88","fileType":1,"filePath":"E:/soft/repeat"}, responseData={"resultData":"","resultState":"error","resultCode":"308"}, testType=数据源信息与已有重复, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-21', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-21">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdatefileconninfo(DataSourceControllerTest.java:366)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据文件类型数据源连接信息">testupdatefileconninfo</span>
+      </td>
+  <td class="duration">
+    0.007s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"19b5deba5add49a58aacbd9a21f44ea5","fileType":1,"filePath":""}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=文件数据源路径为空, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-22', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-22">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdatefileconninfo(DataSourceControllerTest.java:366)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据文件类型数据源连接信息">testupdatefileconninfo</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"9b4e0943abab469eb190f49010defb9c","fileType":5,"filePath":"E:/soft"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id不存在或错误, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-23', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-23">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdatefileconninfo(DataSourceControllerTest.java:366)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据接口类型数据源连接信息">testupdateinterfconninfo</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"657028723fa74545b7771b4ed76a0254","interfaceType":3,"interfaceAddress":"http://192.168.123.1:8080"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id不存在，错误, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-24', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-24">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdateinterfconninfo(DataSourceControllerTest.java:421)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据接口类型数据源连接信息">testupdateinterfconninfo</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"e5961950904146e485f65f46678f6999","interfaceType":11,"interfaceAddress":"id不一致"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=接口数据源id在数据源基本信息表中不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-25', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-25">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdateinterfconninfo(DataSourceControllerTest.java:421)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据接口类型数据源连接信息">testupdateinterfconninfo</span>
+      </td>
+  <td class="duration">
+    0.008s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"fc33215f40dd4837aef3c86bfb5f033d","interfaceType":3,"interfaceAddress":""}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=接口连接地址为空, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-26', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-26">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdateinterfconninfo(DataSourceControllerTest.java:421)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据接口类型数据源连接信息">testupdateinterfconninfo</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"e5961950904146e485f65f46678f6666","interfaceType":2,"interfaceAddress":"重复接口信息"}, responseData={"resultData":"","resultState":"error","resultCode":"308"}, testType=数据源信息与已有重复, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-27', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-27">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              DataSourceControllerTest.testupdateinterfconninfo(DataSourceControllerTest.java:421)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">DataSourceControllerTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=, ds_type=1, postData={"newDataBaseConnInfo":{"dataBaseType":1,"address":"","port":1521,"dataBaseName":"oracle11g","userName":"root","password":"123456"},"newDataSourceBasicInfo":{"dataSourceType":1,"dataSourceName":"Oracle12C"},"newFilesConnInfo":{"filePath":"","fileType":1},"newInteoracleDBrfaceConnInfo":{"interfaceType":1,"interfaceAddress":"host"}}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据库连接信息有字段为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=, ds_type=3, postData={"newDataBaseConnInfo":{},"newDataSourceBasicInfo":{"dataSourceType":3,"dataSourceName":"intername"},"newFilesConnInfo":{},"newInteoracleDBrfaceConnInfo":{"interfaceType":1,"interfaceAddress":""}}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=接口连接信息有字段为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.025s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=filesource, ds_type=2, postData={"newDataBaseConnInfo":{},"newDataSourceBasicInfo":{"dataSourceType":2,"dataSourceName":"filesource"},"newFilesConnInfo":{"filePath":"E:/Geotsd/datasource/resources","fileType":1},"newInterfaceConnInfo":{}}, responseData=新增成功，数据库验证, testType=新增文件类型数据源, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.021s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=testdbsource, ds_type=1, postData={"newDataBaseConnInfo":{"dataBaseType":2,"address":"beyondb","port":3306,"dataBaseName":"BeyonDB","userName":"postgre","password":"123@abc"},"newDataSourceBasicInfo":{"dataSourceType":1,"dataSourceName":"testdbsource"},"newFilesConnInfo":{},"newInterfaceConnInfo":{}}, responseData=新增成功，数据库验证, testType=只新增数据库类型信息，文件及接口连接方式为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.026s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=BeyonDB, ds_type=1, postData={"newDataBaseConnInfo":{"dataBaseType":2,"address":"beyondb","port":3306,"dataBaseName":"BeyonDB","userName":"postgre","password":"123@abc"},"newDataSourceBasicInfo":{"dataSourceType":1,"dataSourceName":"BeyonDB"},"newFilesConnInfo":{"filePath":"","fileType":1},"newInterfaceConnInfo":{"interfaceType":1,"interfaceAddress":"host"}}, responseData=新增成功，数据库验证, testType=新增beyondb数据库数据源, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.023s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=interfaceDB, ds_type=3, postData={"newDataBaseConnInfo":{},"newDataSourceBasicInfo":{"dataSourceType":3,"dataSourceName":"interfaceDB"},"newFilesConnInfo":{},"newInterfaceConnInfo":{"interfaceType":1,"interfaceAddress":"host"}}, responseData=新增成功，数据库验证, testType=新增接口类型数据源, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.098s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=oracleDB, ds_type=1, postData={"newDataBaseConnInfo":{"dataBaseType":1,"address":"192.168.251.110","port":3306,"dataBaseName":"oracle11g","userName":"root","password":"123456"},"newDataSourceBasicInfo":{"dataSourceType":1,"dataSourceName":"oracleDB"},"newFilesConnInfo":{},"newInterfaceConnInfo":{}}, responseData=新增成功，数据库验证, testType=新增oracle数据库数据源, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.029s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=postgre11C, ds_type=1, postData={"newDataBaseConnInfo":{"dataBaseType":4,"address":"postgre11C","port":3306,"dataBaseName":"postgre11C","userName":"postgre","password":"123@abc"},"newDataSourceBasicInfo":{"dataSourceType":1,"dataSourceName":"postgre11C"},"newFilesConnInfo":{"filePath":"","fileType":1},"newInterfaceConnInfo":{"interfaceType":1,"interfaceAddress":"host"}}, responseData=新增成功，数据库验证, testType=新增数据库类型的数据源信息, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源">testAddnew</span>
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{ds_name=, ds_type=2, postData={"newDataBaseConnInfo":{},"newDataSourceBasicInfo":{"dataSourceType":2,"dataSourceName":"Oracle12C"},"newFilesConnInfo":{"filePath":"","fileType":1},"newInteoracleDBrfaceConnInfo":{"interfaceType":1,"interfaceAddress":"host"}}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=文件连接信息有字段为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取全部数据源索引信息列表">testfindallindex</span>
+      </td>
+  <td class="duration">
+    0.013s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"pageNum":"2","pageSize":"5"}, responseData=正常查询，数据库统计结果对比, testType=查询出第二页的显示数据, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取全部数据源索引信息列表">testfindallindex</span>
+      </td>
+  <td class="duration">
+    0.015s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"pageNum":"1","pageSize":"5"}, responseData=正常查询，数据库统计结果对比, testType=查询出第一页的显示数据, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.020s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=SELECT * FROM "public"."SKDSJ_SJYSP_T_SJYJBXX" T where concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%2018-07-13 14:03:40%'or concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%2018-07-13 11:21:30%' and T."DS_TYPE" =1, postData={"keyWords":["2018-07-24 10:11:11","2018-07-13 13:39:16"],"dataSourceType":1,"pageNum":1,"pageSize":10}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为MODITY_TIME字段值, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.014s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=SELECT * FROM "public"."SKDSJ_SJYSP_T_SJYJBXX" T where (concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%2018-07-13 13:39:16%'or concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%验证%' or concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%BeyonDB%' )and T."DS_TYPE" =1, postData={"keyWords":["2018-07-13 13:39:16","测试","oracleDB"],"dataSourceType":1,"pageNum":1,"pageSize":5}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为时间+名称+类型+备注组合, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=, postData={"keyWords":["oracleDB"],"dataSourceType":11,"pageNum":1,"pageSize":10}, responseData={"resultData":{"count":0,"list":[],"pageNum":0,"pageSize":10,"total":0},"resultState":"success","resultCode":"200"}, testType=关键字正常，数据源类型错误, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.018s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=SELECT * FROM "public"."SKDSJ_SJYSP_T_SJYJBXX" T where concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%oracleDB%' and T."DS_TYPE" =1, postData={"keyWords":["oracleDB"],"dataSourceType":1,"pageNum":1,"pageSize":5}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为DS_TYPE字段值, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.014s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=SELECT * FROM "public"."SKDSJ_SJYSP_T_SJYJBXX" T where concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%2018-07-13 14:03:40%'or concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%测试%' and T."DS_TYPE" =1, postData={"keyWords":["2018-07-13 13:39:16","测试"],"dataSourceType":1,"pageNum":1,"pageSize":5}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为时间和备注组合, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.012s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=SELECT * FROM "public"."SKDSJ_SJYSP_T_SJYJBXX" T where concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%b8e5e352c86848cfaa36f2eafe7c44ea%'or concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%f6852207fb3140ee957a240d2f088d17%' and T."DS_TYPE" =1, postData={"keyWords":["0415e820718f4d61aff3b225d4e8240b","6aaa37ba953747cf929fe628cac4e8f0"],"dataSourceType":1,"pageNum":1,"pageSize":5}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为DS_ID字段值, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=, postData={"keyWords":[""],"dataSourceType":0,"pageNum":1,"pageSize":10}, responseData={"resultData":{"count":0,"list":[],"pageNum":0,"pageSize":10,"total":0},"resultState":"success","resultCode":"200"}, testType=关键字及类型都为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.016s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=, postData={"keyWords":[""],"dataSourceType":1,"pageNum":1,"pageSize":10}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为空，数据源类型正常, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.014s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=SELECT * FROM "public"."SKDSJ_SJYSP_T_SJYJBXX" T where concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%BeyonDB%'or concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%filesource%' and T."DS_TYPE" =1, postData={"keyWords":["postgre11C","filesource"],"dataSourceType":1,"pageNum":1,"pageSize":5}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为DS_NAME字段值, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.015s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=SELECT * FROM "public"."SKDSJ_SJYSP_T_SJYJBXX" T where concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%2018-07-13 14:03:40%'or concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%testdbsource%' and T."DS_TYPE" =1, postData={"keyWords":["2018-07-13 14:03:40","testdbsource"],"dataSourceType":1,"pageNum":1,"pageSize":10}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为时间和名称组合, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.014s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=SELECT * FROM "public"."SKDSJ_SJYSP_T_SJYJBXX" T where t."MODIFY_TIME" = '2018-07-13 14:03:40' and t."DS_TYPE" = 1, postData={"keyWords":["2018-07-24 10:11:11"],"dataSourceType":2,"pageNum":1,"pageSize":10}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为时间和类型组合, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.013s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=SELECT * FROM "public"."SKDSJ_SJYSP_T_SJYJBXX" T where concat(T."DS_ID",T."DS_NAME",T."DS_TYPE",T."MODIFY_TIME",T."REMARKS")
+like '%测试%' and T."DS_TYPE" =1, postData={"keyWords":["测试"],"dataSourceType":1,"pageNum":1,"pageSize":10}, responseData=统计查询结果个数与数据库对比验证, testType=关键字为REMARKS字段值, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="检索数据源接口">testfindbycond</span>
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{findSql=, postData={"keyWords":["数据源信息查询"],"dataSourceType":3,"pageNum":1,"pageSize":10}, responseData={"resultData":{"count":0,"list":[],"pageNum":0,"pageSize":10,"total":0},"resultState":"success","resultCode":"200"}, testType=关键字在数据表中不存在, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源全部信息">testgetallinfobyid</span>
+      </td>
+  <td class="duration">
+    0.018s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=b8e5e352c86848cfaa36f2eafe7c44ea, ds_Type=1, responseData=查询结果与数据库值对比验证, testType=数据源类型为1（数据库）,数据源id正确存在, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源全部信息">testgetallinfobyid</span>
+      </td>
+  <td class="duration">
+    0.018s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=19b5deba5add49a58aacbd9a21f44ea5, ds_Type=2, responseData=查询结果与数据库值对比验证, testType=数据源类型为2（文件）,数据源id正确存在, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源全部信息">testgetallinfobyid</span>
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=, ds_Type=1, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源全部信息">testgetallinfobyid</span>
+      </td>
+  <td class="duration">
+    0.017s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=e5961950904146e485f65f46678f6666, ds_Type=3, responseData=查询结果与数据库值对比验证, testType=数据源类型为3（接口）,数据源id正确存在, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源基本属性信息">testgetbasicinfobyid</span>
+      </td>
+  <td class="duration">
+    0.029s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=30a59d0b83ad4c179928d8989702e20f, responseData=查询结果与数据库值对比验证, testType=数据源类型为1（数据库）, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源基本属性信息">testgetbasicinfobyid</span>
+      </td>
+  <td class="duration">
+    0.021s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=d34b755486e64eaf943d93ed463d4c88, responseData=查询结果与数据库值对比验证, testType=数据源类型为2（文件）, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据唯一标识，获取指定数据源基本属性信息">testgetbasicinfobyid</span>
+      </td>
+  <td class="duration">
+    0.019s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceId=fc33215f40dd4837aef3c86bfb5f033d, responseData=查询结果与数据库值对比验证, testType=数据源类型为3（接口）, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="移除指定数据源">testremove</span>
+      </td>
+  <td class="duration">
+    0.043s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceIds={"dataSourceIds":"14e8ed22c2b547a7a52d687ba04938aa"}, responseData=数据源移除成功, testType=移除文件类型的数据源, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="移除指定数据源">testremove</span>
+      </td>
+  <td class="duration">
+    0.144s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceIds={"dataSourceIds":"57ec8a0aa7074729bf249feef6585f6a,1daa43cfcb784c35b3bfd90bfe21c8ce,ae2c494dd6be435b89ce0c5e5f703c70"}, responseData=数据源移除成功, testType=移除多个数据源, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="移除指定数据源">testremove</span>
+      </td>
+  <td class="duration">
+    0.060s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceIds={"dataSourceIds":"da21620cce5f49fe8e6a747bb1992db8"}, responseData=数据源移除成功, testType=移除接口类型的数据源, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="移除指定数据源">testremove</span>
+      </td>
+  <td class="duration">
+    0.046s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{dataSourceIds={"dataSourceIds":"7866d3ae82664d938b9400df8b45e6ab"}, responseData=数据源移除成功, testType=移除数据库类型的数据源, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="重命名指定数据源">testrename</span>
+      </td>
+  <td class="duration">
+    0.011s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"db49b38437dd43f1bdc4820db38ce17f","dataSourceName":"Rename@DB"}, responseData=重命名成功，数据库验证, testType=数据库类型的源名称进行重命名, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="重命名指定数据源">testrename</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","dataSourceName":"oracleDB"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="重命名指定数据源">testrename</span>
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"b8e5e352c86848cfaa36f2eafe7c44ea","dataSourceName":""}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源名称为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据库类型数据源连接信息">testupdatedbconninfo</span>
+      </td>
+  <td class="duration">
+    0.011s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"8d8d32b829cf4b8e813ad0246ee692db","dataBaseType":3,"address":"192.168.123.1","port":1521,"dataBaseName":"oracle12c","userName":"testoracle12c","password":"123@qwe"}, responseData=数据库连接信息更新成功，数据库验证, testType=更新数据库连接信息, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据库类型数据源连接信息">testupdatedbconninfo</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","dataBaseType":3,"address":"192.168.123.1","port":1366,"dataBaseName":"oracle12c","userName":"testoracle12c","password":"123@qwe"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据文件类型数据源连接信息">testupdatefileconninfo</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","fileType":2,"filePath":"E:/soft"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据文件类型数据源连接信息">testupdatefileconninfo</span>
+      </td>
+  <td class="duration">
+    0.012s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"d34b755486e64eaf943d93ed463d4cd9","fileType":2,"filePath":"E:/soft/修改路径"}, responseData=文件连接信息更新成功，数据库验证, testType=数据源id正常, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据接口类型数据源连接信息">testupdateinterfconninfo</span>
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","interfaceType":9,"interfaceAddress":"AAAA"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据源id为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定数据接口类型数据源连接信息">testupdateinterfconninfo</span>
+      </td>
+  <td class="duration">
+    0.016s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"e5961950904146e485f65f46678f624c","interfaceType":3,"interfaceAddress":"http://192.168.123.1:8080"}, responseData=接口连接信息更新成功，数据库验证, testType=数据源id正常, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

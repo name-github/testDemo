@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="接口测试"
+           tests="56"
+           failures="23"
+           errors="0"
+           skipped="0"
+           time="1.031">
+  <properties />
+            <testcase name="testupdate" time="0.008" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"309"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testupdate(DataTableControllerTest.java:352)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testaddnewsbyjsonfile" time="0.021" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [327704afd8da498ca47d0421ebb5ecf3] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [327704afd8da498ca47d0421ebb5ecf3] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testaddnewsbyjsonfile(DataTableControllerTest.java:200)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdate" time="0.016" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [cscs] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [cscs] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedTable(compared.java:159)
+  DataTableControllerTest.testupdate(DataTableControllerTest.java:366)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdate" time="0.008" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"308"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testupdate(DataTableControllerTest.java:352)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindByKW" time="0.008" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:0,&quot;list&quot;:[],&quot;pageNum&quot;:0,&quot;pageSize&quot;:2,&quot;total&quot;:0},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":{"count":0,"list":[],"pageNum":0,"pageSize":2,"total":0},"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testfindByKW(DataTableControllerTest.java:524)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupload" time="0.015" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}] but found [{&quot;resultData&quot;:&quot;192.168.251.188:80/group1/M00/00/00/wKj7vFtYHpKAAsfkAAAABxU2iV48439974?token=0cea1acbff8e80ca0290a225ebe24185&amp;ts=1532501651&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"309"}] but found [{"resultData":"192.168.251.188:80/group1/M00/00/00/wKj7vFtYHpKAAsfkAAAABxU2iV48439974?token=0cea1acbff8e80ca0290a225ebe24185&ts=1532501651","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testupload(DataTableControllerTest.java:242)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testRemove" time="0.004" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"success","resultCode":"200"}] but found [{"resultData":"","resultState":"error","resultCode":"309"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testRemove(DataTableControllerTest.java:278)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testRemove" time="0.004" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"success","resultCode":"200"}] but found [{"resultData":"","resultState":"error","resultCode":"309"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testRemove(DataTableControllerTest.java:278)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testRemove" time="0.004" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"success","resultCode":"200"}] but found [{"resultData":"","resultState":"error","resultCode":"309"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testRemove(DataTableControllerTest.java:278)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindByKW" time="0.010" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;305&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:1,&quot;list&quot;:[{&quot;dataSourceId&quot;:&quot;327704afd8da498ca47d0421ebb5ecf3&quot;,&quot;dataTableAlias&quot;:&quot;ztcs&quot;,&quot;dataTableId&quot;:&quot;fcaeae9a63d743ecb4af9d5c4cb90b96&quot;,&quot;dataTableName&quot;:&quot;DTNAME&quot;,&quot;dataTablePK&quot;:&quot;111111111111111111&quot;,&quot;remarks&quot;:&quot;新增表格1&quot;,&quot;updateTime&quot;:&quot;2018-07-25 14:54:11&quot;}],&quot;pageNum&quot;:1,&quot;pageSize&quot;:2,&quot;total&quot;:1},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"305"}] but found [{"resultData":{"count":1,"list":[{"dataSourceId":"327704afd8da498ca47d0421ebb5ecf3","dataTableAlias":"ztcs","dataTableId":"fcaeae9a63d743ecb4af9d5c4cb90b96","dataTableName":"DTNAME","dataTablePK":"111111111111111111","remarks":"新增表格1","updateTime":"2018-07-25 14:54:11"}],"pageNum":1,"pageSize":2,"total":1},"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testfindByKW(DataTableControllerTest.java:524)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testgetById" time="0.016" classname="DataTableControllerTest">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedTable(compared.java:154)
+  DataTableControllerTest.testgetById(DataTableControllerTest.java:574)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testaddNews" time="0.045" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:[&quot;baf2354ef1914c9991dddfbc9084920a&quot;],&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":["baf2354ef1914c9991dddfbc9084920a"],"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testaddNews(DataTableControllerTest.java:139)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testgetById" time="0.014" classname="DataTableControllerTest">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedTable(compared.java:154)
+  DataTableControllerTest.testgetById(DataTableControllerTest.java:574)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testclear" time="0.006" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"309"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testclear(DataTableControllerTest.java:315)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testaddnewsbyjsonfile" time="0.001" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [系统找不到指定的文件] but found []"
+              >
+<![CDATA[java.lang.AssertionError: expected [系统找不到指定的文件] but found []
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testaddnewsbyjsonfile(DataTableControllerTest.java:177)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindByKW" time="0.019" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [1] but found [0]"
+              >
+<![CDATA[java.lang.AssertionError: expected [1] but found [0]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:652)
+  org.testng.Assert.assertEquals(Assert.java:662)
+  DataTableControllerTest.testfindByKW(DataTableControllerTest.java:509)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindAllByDsId" time="0.007" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:0,&quot;list&quot;:[],&quot;pageNum&quot;:0,&quot;pageSize&quot;:3,&quot;total&quot;:0},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":{"count":0,"list":[],"pageNum":0,"pageSize":3,"total":0},"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testfindAllByDsId(DataTableControllerTest.java:441)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindAllByDsId" time="0.012" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [4] but found [3]"
+              >
+<![CDATA[java.lang.AssertionError: expected [4] but found [3]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:652)
+  org.testng.Assert.assertEquals(Assert.java:662)
+  DataTableControllerTest.testfindAllByDsId(DataTableControllerTest.java:430)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindAllByDsId" time="0.005" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;305&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:0,&quot;list&quot;:[],&quot;pageNum&quot;:0,&quot;pageSize&quot;:3,&quot;total&quot;:0},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"305"}] but found [{"resultData":{"count":0,"list":[],"pageNum":0,"pageSize":3,"total":0},"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testfindAllByDsId(DataTableControllerTest.java:441)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupload" time="0.014" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;192.168.251.188:80/group1/M00/00/00/wKj7vFtYHpKAUyYHAAAABxU2iV47950626?token=dd60f142f0c94c2fbb2ce2b897b4ba83&amp;ts=1532501651&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"192.168.251.188:80/group1/M00/00/00/wKj7vFtYHpKAUyYHAAAABxU2iV47950626?token=dd60f142f0c94c2fbb2ce2b897b4ba83&ts=1532501651","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testupload(DataTableControllerTest.java:242)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testRemove" time="0.004" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"error","resultCode":"309"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataTableControllerTest.testRemove(DataTableControllerTest.java:275)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdate" time="0.016" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [修改表名称] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [修改表名称] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedTable(compared.java:159)
+  DataTableControllerTest.testupdate(DataTableControllerTest.java:366)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindByKW" time="0.019" classname="DataTableControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [1] but found [0]"
+              >
+<![CDATA[java.lang.AssertionError: expected [1] but found [0]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:652)
+  org.testng.Assert.assertEquals(Assert.java:662)
+  DataTableControllerTest.testfindByKW(DataTableControllerTest.java:517)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="testclear" time="0.005" classname="DataTableControllerTest" />
+                <testcase name="testgetById" time="0.007" classname="DataTableControllerTest" />
+                <testcase name="testupload" time="0.016" classname="DataTableControllerTest" />
+                <testcase name="testaddNews" time="0.035" classname="DataTableControllerTest" />
+                <testcase name="testfindByKW" time="0.025" classname="DataTableControllerTest" />
+                <testcase name="testfindByKW" time="0.021" classname="DataTableControllerTest" />
+                <testcase name="testupdate" time="0.003" classname="DataTableControllerTest" />
+                <testcase name="testclear" time="0.001" classname="DataTableControllerTest" />
+                <testcase name="testfindAllByDsId" time="0.013" classname="DataTableControllerTest" />
+                <testcase name="testfindByKW" time="0.007" classname="DataTableControllerTest" />
+                <testcase name="testfindByKW" time="0.007" classname="DataTableControllerTest" />
+                <testcase name="testfindByKW" time="0.021" classname="DataTableControllerTest" />
+                <testcase name="testaddNews" time="0.187" classname="DataTableControllerTest" />
+                <testcase name="testaddNews" time="0.033" classname="DataTableControllerTest" />
+                <testcase name="testfindByKW" time="0.002" classname="DataTableControllerTest" />
+                <testcase name="testgetById" time="0.004" classname="DataTableControllerTest" />
+                <testcase name="testfindAllByDsId" time="0.013" classname="DataTableControllerTest" />
+                <testcase name="testupload" time="0.013" classname="DataTableControllerTest" />
+                <testcase name="testRemove" time="0.002" classname="DataTableControllerTest" />
+                <testcase name="testfindAllByDsId" time="0.014" classname="DataTableControllerTest" />
+                <testcase name="testfindAllByDsId" time="0.005" classname="DataTableControllerTest" />
+                <testcase name="testRemove" time="0.002" classname="DataTableControllerTest" />
+                <testcase name="testaddNews" time="0.075" classname="DataTableControllerTest" />
+                <testcase name="testRemove" time="0.004" classname="DataTableControllerTest" />
+                <testcase name="testRemove" time="0.005" classname="DataTableControllerTest" />
+                <testcase name="testaddNews" time="0.010" classname="DataTableControllerTest" />
+                <testcase name="testfindAllByDsId" time="0.003" classname="DataTableControllerTest" />
+                <testcase name="testfindByKW" time="0.022" classname="DataTableControllerTest" />
+                <testcase name="testupload" time="0.013" classname="DataTableControllerTest" />
+                <testcase name="testclear" time="0.020" classname="DataTableControllerTest" />
+                <testcase name="testaddNews" time="0.145" classname="DataTableControllerTest" />
+                <testcase name="testclear" time="0.018" classname="DataTableControllerTest" />
+                <testcase name="testupload" time="0.004" classname="DataTableControllerTest" />
+      
+</testsuite>

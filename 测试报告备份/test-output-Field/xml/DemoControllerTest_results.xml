@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="接口测试"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.021">
+  <properties />
+  
+  
+            <testcase name="testIndexpost" time="0.004" classname="DemoControllerTest" />
+                <testcase name="testIndexget" time="0.002" classname="DemoControllerTest" />
+                <testcase name="testIndexget" time="0.001" classname="DemoControllerTest" />
+                <testcase name="testIndexget" time="0.001" classname="DemoControllerTest" />
+                <testcase name="testIndexpost" time="0.006" classname="DemoControllerTest" />
+                <testcase name="testIndexpost" time="0.007" classname="DemoControllerTest" />
+      
+</testsuite>

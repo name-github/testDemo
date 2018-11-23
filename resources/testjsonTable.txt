@@ -1,0 +1,28 @@
+﻿{
+  "dataSourceId": "327704afd8da498ca47d0421ebb5ecf3",
+  "newDataTableInfoList": [
+    {
+      "dataTableBasicInfo": {
+        "dataSourceId": "327704afd8da498ca47d0421ebb5ecf3",
+        "dataTableAlias": "文件表",
+        "dataTableId": "",
+        "dataTableName": "文件表名称",
+        "dataTablePK": "主键",
+        "remarks": "表文件格式",
+        "updateTime": ""
+      },
+      "fieldList": [
+        {
+          "dataSourceId": "",
+          "dataTableId": "",
+          "fieldAlias": "文件字段别名",
+          "fieldId": "",
+          "fieldName": "字段名称",
+          "fieldType": 1,
+          "remarks": "字段备注文件",
+          "updateTime": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - 接口集成测试</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>接口集成测试</h1>
+<p>
+  Test duration: 26.828s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">MultiinterfaceIntegrationTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="新增数据源后，同时添加对应的数据表及字段">AddData</span>
+      </td>
+  <td class="duration">
+    1.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DataField="newFieldInfoList":[{"dataSourceId":"","dataTableId":"","fieldAlias":"测试","fieldId":"","fieldName":"name","fieldType":2,"remarks":"一个字段关联两个表","updateTime":""}], DataSource={"newDataBaseConnInfo":{"dataBaseType":2,"address":"beyondb","port":3306,"dataBaseName":"BeyonDB","userName":"postgre","password":"123@abc"},"newDataSourceBasicInfo":{"dataSourceType":1,"dataSourceName":"BeyonDB","remarks":"数据源关联多个表和字段"},"newFilesConnInfo":{"filePath":"","fileType":1},"newInterfaceConnInfo":{"interfaceType":1,"interfaceAddress":"/usr/local/测试地址信息"}}, DataTable="newDataTableInfoList":[{"dataTableBasicInfo":{"dataSourceId":"","dataTableAlias":"表1","dataTableId":"","dataTableName":"student","dataTablePK":"1111111111111111","remarks":"数据表1","updateTime":""},"fieldList":[{"dataSourceId":"","dataTableId":"","fieldAlias":"字段1","fieldId":"","fieldName":"tset","fieldType":2,"remarks":"表1下属字段1","updateTime":""}]},{"dataTableBasicInfo":{"dataSourceId":"","dataTableAlias":"表2","dataTableId":"","dataTableName":"school","dataTablePK":"3333333333333333333","remarks":"数据表2","updateTime":""},"fieldList":[{"dataSourceId":"","dataTableId":"","fieldAlias":"字段2","fieldId":"","fieldName":"StartData","fieldType":3,"remarks":"表2下属字段1","updateTime":""},{"dataSourceId":"","dataTableId":"","fieldAlias":"字段3","fieldId":"","fieldName":"EndData","fieldType":3,"remarks":"表2下属字段2","updateTime":""}]}], EditField="dataSourceId":"","dataTableId":"","fieldAlias":"表与表字段id不一致","fieldName":"不一致","fieldType":2,"remarks":"id不一致","updateTime":""}, responseDataField=新增字段信息成功, responseDataSource=新增数据源信息成功, responseDataTable=新增数据表信息成功, testType=1个数据源2张表4个字段}</span><br />
+    
+            <div class="testOutput">
+                        类型：1个数据源2张表4个字段<br />
+                                请求地址：http://localhost:9090/dsas/api/datasource/addnew<br />
+                                请求地址：http://localhost:9090/dsas/api/datatable/addnews<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.AddData() didn&apos;t finish within the time-out 1000</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              java.net.SocketInputStream.socketRead0(Native Method)<br />
+              java.net.SocketInputStream.socketRead(SocketInputStream.java:116)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:171)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:141)<br />
+              java.io.BufferedInputStream.fill(BufferedInputStream.java:246)<br />
+              java.io.BufferedInputStream.read1(BufferedInputStream.java:286)<br />
+              java.io.BufferedInputStream.read(BufferedInputStream.java:345)<br />
+              sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)<br />
+              sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)<br />
+              java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)<br />
+              com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)<br />
+              MultiinterfaceIntegrationTest.AddData(MultiinterfaceIntegrationTest.java:55)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:748)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    0.757s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=RenameBeyondb, EditDBconn=, ReDSName="dataSourceName":"RenameBeyondb", responseDBconn=, responseReDSName={"resultData":"","resultState":"error","resultCode":"308"}, testType=数据源名称重复}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:254)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    0.116s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=editinterface, EditDBconn="interfaceType":1,"interfaceAddress":"/home/host", ReDSName="dataSourceName":"interfaceDB", responseDBconn=接口型连接信息修改成功, responseReDSName=重命名成功, testType=接口型数据源信息恢复原始}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [interfaceDB] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)<br />
+              com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    0.074s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=editinterfaceDB, EditDBconn="interfaceType":2,"interfaceAddress":"/home/host/test/interfacedb", ReDSName="dataSourceName":"editinterface", responseDBconn=接口型连接信息修改成功, responseReDSName=重命名成功, testType=编辑接口型数据源信息}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [editinterface] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)<br />
+              com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    3.618s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=RenameBeyondb, EditDBconn="dataBaseType":3,"address":"192.168.111.251","port":1521,"dataBaseName":"orc12C","userName":"testoracle12c","password":"name@123456", ReDSName="dataSourceName":"BeyonDB001", responseDBconn={"resultData":"","resultState":"error","resultCode":"308"}, responseReDSName=重命名成功, testType=数据库连接信息重复}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [BeyonDB001] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)<br />
+              com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    9.362s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=editfilesource, EditDBconn="fileType":2,"filePath":"E:/soft/repeat/测试编辑文件路径", ReDSName="dataSourceName":"filesource001", responseDBconn={"resultData":"","resultState":"error","resultCode":"308"}, responseReDSName=重命名成功, testType=文件型数据源连接信息重复}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [filesource001] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)<br />
+              com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    1.359s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=BeyonDB001, EditDBconn="dataBaseType":3,"address":"DESKTOP-GHV6PBJ","port":3306,"dataBaseName":"postgrep","userName":"testbeyondb","password":"return@123457", ReDSName="dataSourceName":"BeyonDB", responseDBconn=数据库连接信息修改成功, responseReDSName=重命名成功, testType=数据源名称及连接信息恢复原始数据}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [BeyonDB] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)<br />
+              com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    3.806s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=BeyonDB, EditDBconn="dataBaseType":3,"address":"192.168.111.251","port":1521,"dataBaseName":"orc12C","userName":"testoracle12c","password":"name@123456", ReDSName="dataSourceName":"RenameBeyondb", responseDBconn=数据库连接信息修改成功, responseReDSName=重命名成功, testType=编辑数据库数据源信息（名称及连接信息）}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [RenameBeyondb] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-7">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)<br />
+              com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    0.106s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=filesource001, EditDBconn="fileType":2,"filePath":"home/soft/repeat/returnpath", ReDSName="dataSourceName":"filesource", responseDBconn=文件型连接信息修改成功, responseReDSName=重命名成功, testType=文件型数据源名称及连接信息恢复原始数据}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [filesource] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-8">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)<br />
+              com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    0.520s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=filesource, EditDBconn="fileType":2,"filePath":"E:/soft/repeat/测试编辑文件路径", ReDSName="dataSourceName":"editfilesource", responseDBconn=文件型连接信息修改成功, responseReDSName=重命名成功, testType=编辑文件类型数据源信息}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [editfilesource] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-9">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)<br />
+              com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据源连接信息">EditDataSource</span>
+      </td>
+  <td class="duration">
+    0.027s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=interfaceDB, EditDBconn="interfaceType":1,"interfaceAddress":"/home/host", ReDSName="dataSourceName":"editinterfaceDB", responseDBconn={"resultData":"","resultState":"error","resultCode":"308"}, responseReDSName=重命名成功, testType=接口型数据源连接信息重复}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-10', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [editinterfaceDB] but found [null]</b></a><br />
+    <div class="stackTrace" id="exception-10">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)<br />
+              com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)<br />
+              MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据表基本属性信息">EditTable</span>
+      </td>
+  <td class="duration">
+    1.063s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{EditField="dataSourceId":"","dataTableId":"","fieldAlias":"恢复字段别名","fieldName":"tset","fieldType":3,"remarks":"恢复原字段","updateTime":"", EditTable="dataSourceId":"","dataTableAlias":"恢复原始表名称","dataTableName":"student","dataTablePK":"id","remarks":"返回学生表信息名称","updateTime":"", TableName=classname, responseEditField=更新成功, responseEditTable=更新成功, testType=更新数据表基本属性信息及字段信息}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-11', 'block')" title="Click to expand/collapse"><b>org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.EditTable() didn&apos;t finish within the time-out 1000</b></a><br />
+    <div class="stackTrace" id="exception-11">
+              java.net.SocketInputStream.socketRead0(Native Method)<br />
+              java.net.SocketInputStream.socketRead(SocketInputStream.java:116)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:171)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:141)<br />
+              java.io.BufferedInputStream.fill(BufferedInputStream.java:246)<br />
+              java.io.BufferedInputStream.read1(BufferedInputStream.java:286)<br />
+              java.io.BufferedInputStream.read(BufferedInputStream.java:345)<br />
+              sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)<br />
+              sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)<br />
+              java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)<br />
+              com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)<br />
+              MultiinterfaceIntegrationTest.EditTable(MultiinterfaceIntegrationTest.java:191)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:748)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据表基本属性信息">EditTable</span>
+      </td>
+  <td class="duration">
+    1.002s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{EditField="dataSourceId":"","dataTableId":"","fieldAlias":"编辑修改字段别名","fieldName":"editfield","fieldType":2,"remarks":"测试验证编辑","updateTime":"", EditTable="dataSourceId":"","dataTableAlias":"修改学生表","dataTableName":"editstudent","dataTablePK":"name","remarks":"首次修改学生表信息","updateTime":"", TableName=student, responseEditField=更新成功, responseEditTable=更新成功, testType=更新数据表基本属性信息及字段信息}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-12', 'block')" title="Click to expand/collapse"><b>org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.EditTable() didn&apos;t finish within the time-out 1000</b></a><br />
+    <div class="stackTrace" id="exception-12">
+              java.net.SocketInputStream.socketRead0(Native Method)<br />
+              java.net.SocketInputStream.socketRead(SocketInputStream.java:116)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:171)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:141)<br />
+              java.io.BufferedInputStream.fill(BufferedInputStream.java:246)<br />
+              java.io.BufferedInputStream.read1(BufferedInputStream.java:286)<br />
+              java.io.BufferedInputStream.read(BufferedInputStream.java:345)<br />
+              sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)<br />
+              sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)<br />
+              java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)<br />
+              com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)<br />
+              MultiinterfaceIntegrationTest.EditTable(MultiinterfaceIntegrationTest.java:191)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:748)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据表基本属性信息">EditTable</span>
+      </td>
+  <td class="duration">
+    1.001s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{EditField=, EditTable="dataSourceId":"","dataTableAlias":"学生表","dataTableName":"editstudent","dataTablePK":"test","remarks":"修改表信息","updateTime":"", TableName=editstudent, responseEditField=, responseEditTable={"resultData":"","resultState":"error","resultCode":"308"}, testType=更新数据表名称重复}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-13', 'block')" title="Click to expand/collapse"><b>org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.EditTable() didn&apos;t finish within the time-out 1000</b></a><br />
+    <div class="stackTrace" id="exception-13">
+              java.net.SocketInputStream.socketRead0(Native Method)<br />
+              java.net.SocketInputStream.socketRead(SocketInputStream.java:116)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:171)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:141)<br />
+              java.io.BufferedInputStream.fill(BufferedInputStream.java:246)<br />
+              java.io.BufferedInputStream.read1(BufferedInputStream.java:286)<br />
+              java.io.BufferedInputStream.read(BufferedInputStream.java:345)<br />
+              sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)<br />
+              sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)<br />
+              java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)<br />
+              com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)<br />
+              MultiinterfaceIntegrationTest.EditTable(MultiinterfaceIntegrationTest.java:191)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:748)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑数据表基本属性信息">EditTable</span>
+      </td>
+  <td class="duration">
+    1.010s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{EditField="dataSourceId":"","dataTableId":"","fieldAlias":"编辑修改字段别名","fieldName":"editfield","fieldType":2,"remarks":"测试验证编辑","updateTime":"", EditTable="dataSourceId":"","dataTableAlias":"编辑原始表名称","dataTableName":"classname","dataTablePK":"class","remarks":"再次编辑学生表信息","updateTime":"", TableName=editstudent, responseEditField={"resultData":"","resultState":"error","resultCode":"308"}, responseEditTable=更新成功, testType=更新字段名称重复}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-14', 'block')" title="Click to expand/collapse"><b>org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.EditTable() didn&apos;t finish within the time-out 1000</b></a><br />
+    <div class="stackTrace" id="exception-14">
+              java.net.SocketInputStream.socketRead0(Native Method)<br />
+              java.net.SocketInputStream.socketRead(SocketInputStream.java:116)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:171)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:141)<br />
+              java.io.BufferedInputStream.fill(BufferedInputStream.java:246)<br />
+              java.io.BufferedInputStream.read1(BufferedInputStream.java:286)<br />
+              java.io.BufferedInputStream.read(BufferedInputStream.java:345)<br />
+              sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)<br />
+              sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)<br />
+              java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)<br />
+              com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)<br />
+              MultiinterfaceIntegrationTest.EditTable(MultiinterfaceIntegrationTest.java:191)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:748)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取数据源表字段属性信息">FindAllData</span>
+      </td>
+  <td class="duration">
+    1.001s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=BeyonDB, PostPage={"pageNum":"1","pageSize":"5"}, response=正常查询，对比结果, testType=查询首页前5条数据属性信息（源，表，字段）}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-15', 'block')" title="Click to expand/collapse"><b>org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.FindAllData() didn&apos;t finish within the time-out 1000</b></a><br />
+    <div class="stackTrace" id="exception-15">
+              java.net.SocketInputStream.socketRead0(Native Method)<br />
+              java.net.SocketInputStream.socketRead(SocketInputStream.java:116)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:171)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:141)<br />
+              java.io.BufferedInputStream.fill(BufferedInputStream.java:246)<br />
+              java.io.BufferedInputStream.read1(BufferedInputStream.java:286)<br />
+              java.io.BufferedInputStream.read(BufferedInputStream.java:345)<br />
+              sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)<br />
+              sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)<br />
+              java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)<br />
+              com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)<br />
+              MultiinterfaceIntegrationTest.FindAllData(MultiinterfaceIntegrationTest.java:338)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:748)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取数据源表字段属性信息">FindAllData</span>
+      </td>
+  <td class="duration">
+    1.001s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{DSName=BeyonDB, PostPage={"pageNum":"10","pageSize":"0"}, response={"resultData":"","resultState":"error","resultCode":"305"}, testType=请求页码值错误}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-16', 'block')" title="Click to expand/collapse"><b>org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.FindAllData() didn&apos;t finish within the time-out 1000</b></a><br />
+    <div class="stackTrace" id="exception-16">
+              java.net.SocketInputStream.socketRead0(Native Method)<br />
+              java.net.SocketInputStream.socketRead(SocketInputStream.java:116)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:171)<br />
+              java.net.SocketInputStream.read(SocketInputStream.java:141)<br />
+              java.io.BufferedInputStream.fill(BufferedInputStream.java:246)<br />
+              java.io.BufferedInputStream.read1(BufferedInputStream.java:286)<br />
+              java.io.BufferedInputStream.read(BufferedInputStream.java:345)<br />
+              sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)<br />
+              sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)<br />
+              sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)<br />
+              java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)<br />
+              com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)<br />
+              MultiinterfaceIntegrationTest.FindAllData(MultiinterfaceIntegrationTest.java:338)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)<br />
+              org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)<br />
+              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:748)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>

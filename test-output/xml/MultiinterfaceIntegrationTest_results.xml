@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="接口集成测试"
+           tests="17"
+           failures="17"
+           errors="0"
+           skipped="0"
+           time="26.828">
+  <properties />
+            <testcase name="EditDataSource" time="0.027" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [editinterfaceDB] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [editinterfaceDB] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)
+  com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="FindAllData" time="1.001" classname="MultiinterfaceIntegrationTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method MultiinterfaceIntegrationTest.FindAllData() didn&apos;t finish within the time-out 1000"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.FindAllData() didn't finish within the time-out 1000
+  java.net.SocketInputStream.socketRead0(Native Method)
+  java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+  java.net.SocketInputStream.read(SocketInputStream.java:171)
+  java.net.SocketInputStream.read(SocketInputStream.java:141)
+  java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+  java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+  java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+  sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+  sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+  java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+  com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)
+  MultiinterfaceIntegrationTest.FindAllData(MultiinterfaceIntegrationTest.java:338)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditDataSource" time="0.757" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"308"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:254)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="AddData" time="1.005" classname="MultiinterfaceIntegrationTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method MultiinterfaceIntegrationTest.AddData() didn&apos;t finish within the time-out 1000"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.AddData() didn't finish within the time-out 1000
+  java.net.SocketInputStream.socketRead0(Native Method)
+  java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+  java.net.SocketInputStream.read(SocketInputStream.java:171)
+  java.net.SocketInputStream.read(SocketInputStream.java:141)
+  java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+  java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+  java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+  sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+  sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+  java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+  com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)
+  MultiinterfaceIntegrationTest.AddData(MultiinterfaceIntegrationTest.java:55)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditTable" time="1.010" classname="MultiinterfaceIntegrationTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method MultiinterfaceIntegrationTest.EditTable() didn&apos;t finish within the time-out 1000"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.EditTable() didn't finish within the time-out 1000
+  java.net.SocketInputStream.socketRead0(Native Method)
+  java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+  java.net.SocketInputStream.read(SocketInputStream.java:171)
+  java.net.SocketInputStream.read(SocketInputStream.java:141)
+  java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+  java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+  java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+  sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+  sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+  java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+  com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)
+  MultiinterfaceIntegrationTest.EditTable(MultiinterfaceIntegrationTest.java:191)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditDataSource" time="0.520" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [editfilesource] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [editfilesource] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)
+  com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditDataSource" time="0.116" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [interfaceDB] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [interfaceDB] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)
+  com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditDataSource" time="0.106" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [filesource] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [filesource] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)
+  com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditDataSource" time="0.074" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [editinterface] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [editinterface] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)
+  com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditTable" time="1.002" classname="MultiinterfaceIntegrationTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method MultiinterfaceIntegrationTest.EditTable() didn&apos;t finish within the time-out 1000"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.EditTable() didn't finish within the time-out 1000
+  java.net.SocketInputStream.socketRead0(Native Method)
+  java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+  java.net.SocketInputStream.read(SocketInputStream.java:171)
+  java.net.SocketInputStream.read(SocketInputStream.java:141)
+  java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+  java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+  java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+  sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+  sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+  java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+  com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)
+  MultiinterfaceIntegrationTest.EditTable(MultiinterfaceIntegrationTest.java:191)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditDataSource" time="3.618" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [BeyonDB001] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [BeyonDB001] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)
+  com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditDataSource" time="9.362" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [filesource001] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [filesource001] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)
+  com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditTable" time="1.001" classname="MultiinterfaceIntegrationTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method MultiinterfaceIntegrationTest.EditTable() didn&apos;t finish within the time-out 1000"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.EditTable() didn't finish within the time-out 1000
+  java.net.SocketInputStream.socketRead0(Native Method)
+  java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+  java.net.SocketInputStream.read(SocketInputStream.java:171)
+  java.net.SocketInputStream.read(SocketInputStream.java:141)
+  java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+  java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+  java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+  sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+  sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+  java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+  com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)
+  MultiinterfaceIntegrationTest.EditTable(MultiinterfaceIntegrationTest.java:191)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditTable" time="1.063" classname="MultiinterfaceIntegrationTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method MultiinterfaceIntegrationTest.EditTable() didn&apos;t finish within the time-out 1000"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.EditTable() didn't finish within the time-out 1000
+  java.net.SocketInputStream.socketRead0(Native Method)
+  java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+  java.net.SocketInputStream.read(SocketInputStream.java:171)
+  java.net.SocketInputStream.read(SocketInputStream.java:141)
+  java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+  java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+  java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+  sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+  sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+  java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+  com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)
+  MultiinterfaceIntegrationTest.EditTable(MultiinterfaceIntegrationTest.java:191)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditDataSource" time="1.359" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [BeyonDB] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [BeyonDB] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)
+  com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="EditDataSource" time="3.806" classname="MultiinterfaceIntegrationTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [RenameBeyondb] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [RenameBeyondb] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedDataSource(compared.java:31)
+  com.unistrong.GeoTSD.DSAS.utils.comparedVerify.contrastDataSource(comparedVerify.java:30)
+  MultiinterfaceIntegrationTest.EditDataSource(MultiinterfaceIntegrationTest.java:259)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="FindAllData" time="1.001" classname="MultiinterfaceIntegrationTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method MultiinterfaceIntegrationTest.FindAllData() didn&apos;t finish within the time-out 1000"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method MultiinterfaceIntegrationTest.FindAllData() didn't finish within the time-out 1000
+  java.net.SocketInputStream.socketRead0(Native Method)
+  java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+  java.net.SocketInputStream.read(SocketInputStream.java:171)
+  java.net.SocketInputStream.read(SocketInputStream.java:141)
+  java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+  java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+  java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+  sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+  sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+  java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+  com.unistrong.GeoTSD.DSAS.utils.HttpRequest.httpJson(HttpRequest.java:134)
+  MultiinterfaceIntegrationTest.FindAllData(MultiinterfaceIntegrationTest.java:338)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

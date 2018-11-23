@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="数据源适配服务 接口测试报告 " parallel="methods" thread-count="1">-->
+<suite name="数据源适配服务 接口测试报告" verbose="1" preserve-order="true" parallel="false">
+    <!--测试报告形式1-->
+    <parameter name="report.config" value="src/main/resources/config/extent-config.xml"/>
+<!--    <test name="test01类型" preserve-order="true">
+        <classes>
+            <class name="DemoControllerTest">
+                <methods>
+                    <include name="testIndexpost" description="methods01类型"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name="test02类型" preserve-order="true">
+        <classes>
+            <class name="DemoControllerTest">
+                <methods>
+                    <include name="testIndexget" description="methods02类型"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+    <test verbose="4" preserve-order="true" name="测试数据源接口">
+        <classes>
+            <class name="DataSourceControllerTest">
+                <methods>
+                   <!-- <include name="testAddnew" description="新增数据源"/>-->
+                    <include name="testrename" description="重命名指定数据源"/>
+                    <!--    <include name="testupdatedbconninfo" description="编辑指定数据库类型数据源连接信息"/>
+                        <include name="testupdatefileconninfo" description="编辑指定数据文件类型数据源连接信息"/>
+                        <include name="testupdateinterfconninfo" description="编辑指定数据接口类型数据源连接信息"/>
+                        <include name="testfindallindex" description="获取全部数据源索引信息列表"/>
+                        <include name="testfindbycond" description="检索数据源接口"/>
+                        <include name="testgetbasicinfobyid" description="根据唯一标识，获取指定数据源基本属性信息"/>
+                        <include name="testgetallinfobyid" description="根据唯一标识，获取指定数据源全部信息"/>
+                        <include name="testremove" description="移除指定数据源"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+   <!-- <test verbose="4" preserve-order="true" name="测试数据表接口">
+        <classes>
+            <class name="DataTableControllerTest">
+                <methods>
+                    <include name="testaddNews" description="为指定数据源，批量添加多个数据表接口（数据库类型）"/>
+                    <include name="testaddnewsbyjsonfile" description="为指定数据源，批量添加多个数据表接口（文件类型）"/>
+                    <include name="testupload" description="将指定数据源内，指定数据表集合生成为json格式文件并下载"/>
+                    <include name="testupdate" description="编辑指定数据表的基本属性接口"/>
+                    <include name="testfindAllByDsId" description="获取指定数据源内全部数据表基本属性列表接口（支持分页）"/>
+                    <include name="testfindByKW" description="根据关键字检索指定数据源内数据表接口"/>
+                    <include name="testgetById" description="根据唯一标识，获取指定数据表全部信息接口"/>
+                    <include name="testRemove" description="从指定数据源内，移除指定数据表接口（支持批量）"/>
+                    <include name="testclear" description="清空指定数据源内全部数据表接口"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="4" preserve-order="true" name="测试数据字段接口">
+        <classes>
+            <class name="FieldControllerTest">
+                <methods>
+                    <include name="testAddNews" description="为指定的数据表，批量添加字段接口"/>
+                    <include name="testfindAllByDtId" description="获取指定数据表的全部字段属性信息列表接口"/>
+                    <include name="testUpdate" description="编辑指定字段的基本属性接口"/>
+                    <include name="testRemove" description="从指定数据表中，移除指定字段接口"/>
+                    <include name="testClear" description="从清空指定数据表内全部字段接口"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+    <test name="接口集成测试">
+        <classes>
+            <class name="MultiinterfaceIntegrationTest">
+                <methods>
+                    <include name="AddData" description="新增数据源后，同时添加对应的数据表及字段"/>
+                    <include name="EditTable" description="编辑数据表基本属性信息"/>
+                    <include name="EditDataSource" description="编辑数据源连接信息"/>
+                    <include name="FindAllData" description="获取数据源表字段属性信息"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+       <!-- 测试报告形式2-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  <!--      ExtentReport-->
+      <!-- <listener class-name="com.unistrong.GeoTSD.DSAS.utils.ExtentReport.ExtentTestNGITestListener"/>-->
+        <listener class-name="com.unistrong.GeoTSD.DSAS.utils.ExtentReport.ExtentTestNGIReporterListenerBackup"/>
+    </listeners>
+</suite>

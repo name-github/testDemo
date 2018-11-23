@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="接口测试"
+           tests="72"
+           failures="28"
+           errors="0"
+           skipped="0"
+           time="1.302">
+  <properties />
+            <testcase name="testremove" time="0.004" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testremove(DataSourceControllerTest.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdateinterfconninfo" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"308"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdateinterfconninfo(DataSourceControllerTest.java:421)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testremove" time="0.006" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testremove(DataSourceControllerTest.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdatefileconninfo" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdatefileconninfo(DataSourceControllerTest.java:366)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testgetallinfobyid" time="0.006" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found []"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found []
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testgetallinfobyid(DataSourceControllerTest.java:755)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testAddnew" time="0.142" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:{&quot;dataSourceId&quot;:&quot;d1a180af095b4142904b15f7b3ca8585&quot;},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":{"dataSourceId":"d1a180af095b4142904b15f7b3ca8585"},"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testAddnew(DataSourceControllerTest.java:151)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdateinterfconninfo" time="0.008" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdateinterfconninfo(DataSourceControllerTest.java:421)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testrename" time="0.004" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"308"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testrename(DataSourceControllerTest.java:248)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindallindex" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;305&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:7,&quot;list&quot;:[{&quot;dataSourceId&quot;:&quot;db49b38437dd43f1bdc4820db38ce17f&quot;,&quot;dataSourceName&quot;:&quot;Rename@DB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;fc33215f40dd4837aef3c86bfb5f033d&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 10:08:20&quot;,&quot;remarks&quot;:&quot;&quot;}],&quot;pageNum&quot;:7,&quot;pageSize&quot;:5,&quot;total&quot;:32},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"305"}] but found [{"resultData":{"count":7,"list":[{"dataSourceId":"db49b38437dd43f1bdc4820db38ce17f","dataSourceName":"Rename@DB","dataSourceType":1,"modifyTime":"2018-07-24 18:34:05","remarks":""},{"dataSourceId":"fc33215f40dd4837aef3c86bfb5f033d","dataSourceName":"interfaceDB","dataSourceType":3,"modifyTime":"2018-07-24 10:08:20","remarks":""}],"pageNum":7,"pageSize":5,"total":32},"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testfindallindex(DataSourceControllerTest.java:500)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindallindex" time="0.012" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;305&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:0,&quot;list&quot;:[{&quot;dataSourceId&quot;:&quot;37c66260ef804b7d9f0efa36e2b9cfa9&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-13 13:39:16&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;c748a4441aad42a0bb871d442c3f903d&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;0415e820718f4d61aff3b225d4e8240b&quot;,&quot;dataSourceName&quot;:&quot;postgre11C&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;6aaa37ba953747cf929fe628cac4e8f0&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;2fa7eede2dd34bd888ef41d93da2b20b&quot;,&quot;dataSourceName&quot;:&quot;testdbsource&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;d34b755486e64eaf943d93ed463d4cd9&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;e5961950904146e485f65f46678f624c&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;30a59d0b83ad4c179928d8989702e20f&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;d34b755486e64eaf943d93ed463d4c88&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;&quot;,&quot;remarks&quot;:&quot;xinzeng&quot;},{&quot;dataSourceId&quot;:&quot;1d0695f2deaa46a296f4568ad6893df2&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-13 13:39:16&quot;,&quot;remarks&quot;:&quot;测试验证&quot;},{&quot;dataSourceId&quot;:&quot;b8e5e352c86848cfaa36f2eafe7c44ea&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-13 13:39:16&quot;,&quot;remarks&quot;:&quot;测试备注&quot;},{&quot;dataSourceId&quot;:&quot;19b5deba5add49a58aacbd9a21f44ea5&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;2018-07-24 10:08:20&quot;,&quot;remarks&quot;:&quot;wenjianleix&quot;},{&quot;dataSourceId&quot;:&quot;e5961950904146e485f65f46678f6666&quot;,&quot;dataSourceName&quot;:&quot;initerfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-26 16:47:08&quot;,&quot;remarks&quot;:&quot;新增接口&quot;},{&quot;dataSourceId&quot;:&quot;1234567890123456789aa&quot;,&quot;dataSourceName&quot;:&quot;oracle11g&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:08:20&quot;,&quot;remarks&quot;:&quot;完整数据&quot;},{&quot;dataSourceId&quot;:&quot;34e56cdc82944d1a9ccd4cea5a98b6d7&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;99673b7ba2954d87a4fca5687b84cc71&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;92e94ce46c1046cf803dedfe2e961e22&quot;,&quot;dataSourceName&quot;:&quot;postgre11C&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;affc3e263c8940e0ac970a80717b309f&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;ff5d931b04194da9ad7b8092f95da95c&quot;,&quot;dataSourceName&quot;:&quot;testdbsource&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;3f4591fd82814a788a2728a6913d07ce&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;c0f01744e8e94603bbcac81a8d8776d4&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;4d828692f9ed48028646a7d2ab2f87b9&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:06:32&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;d1a180af095b4142904b15f7b3ca8585&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:04&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;3e9cd6bc094b4c2a925e9f1ffb9dd238&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:04&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;e62dcd525742468392b9f083aa4fd838&quot;,&quot;dataSourceName&quot;:&quot;postgre11C&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;2798d5fb8782421385f1e4595be1c6b7&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;338da9ea84b540198ecb6171a73f3000&quot;,&quot;dataSourceName&quot;:&quot;testdbsource&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;925bffa0e0e343eaadcf68229a1ee05c&quot;,&quot;dataSourceName&quot;:&quot;filesource&quot;,&quot;dataSourceType&quot;:2,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;377b9f86710144a3a5b4bd821e84c0d8&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;c0d49182ae614df8b1cb0861e9d5f4c4&quot;,&quot;dataSourceName&quot;:&quot;oracleDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;db49b38437dd43f1bdc4820db38ce17f&quot;,&quot;dataSourceName&quot;:&quot;Rename@DB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 18:34:05&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;fc33215f40dd4837aef3c86bfb5f033d&quot;,&quot;dataSourceName&quot;:&quot;interfaceDB&quot;,&quot;dataSourceType&quot;:3,&quot;modifyTime&quot;:&quot;2018-07-24 10:08:20&quot;,&quot;remarks&quot;:&quot;&quot;}],&quot;pageNum&quot;:0,&quot;pageSize&quot;:0,&quot;total&quot;:32},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"305"}] but found [{"resultData":{"count":0,"list":[{"dataSourceId":"37c66260ef804b7d9f0efa36e2b9cfa9","dataSourceName":"","dataSourceType":1,"modifyTime":"2018-07-13 13:39:16","remarks":""},{"dataSourceId":"c748a4441aad42a0bb871d442c3f903d","dataSourceName":"","dataSourceType":1,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"0415e820718f4d61aff3b225d4e8240b","dataSourceName":"postgre11C","dataSourceType":1,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"6aaa37ba953747cf929fe628cac4e8f0","dataSourceName":"BeyonDB","dataSourceType":1,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"2fa7eede2dd34bd888ef41d93da2b20b","dataSourceName":"testdbsource","dataSourceType":1,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"d34b755486e64eaf943d93ed463d4cd9","dataSourceName":"filesource","dataSourceType":2,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"e5961950904146e485f65f46678f624c","dataSourceName":"interfaceDB","dataSourceType":3,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"30a59d0b83ad4c179928d8989702e20f","dataSourceName":"oracleDB","dataSourceType":1,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"d34b755486e64eaf943d93ed463d4c88","dataSourceName":"filesource","dataSourceType":2,"modifyTime":"","remarks":"xinzeng"},{"dataSourceId":"1d0695f2deaa46a296f4568ad6893df2","dataSourceName":"oracleDB","dataSourceType":1,"modifyTime":"2018-07-13 13:39:16","remarks":"测试验证"},{"dataSourceId":"b8e5e352c86848cfaa36f2eafe7c44ea","dataSourceName":"BeyonDB","dataSourceType":1,"modifyTime":"2018-07-13 13:39:16","remarks":"测试备注"},{"dataSourceId":"19b5deba5add49a58aacbd9a21f44ea5","dataSourceName":"filesource","dataSourceType":2,"modifyTime":"2018-07-24 10:08:20","remarks":"wenjianleix"},{"dataSourceId":"e5961950904146e485f65f46678f6666","dataSourceName":"initerfaceDB","dataSourceType":3,"modifyTime":"2018-07-26 16:47:08","remarks":"新增接口"},{"dataSourceId":"1234567890123456789aa","dataSourceName":"oracle11g","dataSourceType":1,"modifyTime":"2018-07-24 10:08:20","remarks":"完整数据"},{"dataSourceId":"34e56cdc82944d1a9ccd4cea5a98b6d7","dataSourceName":"","dataSourceType":1,"modifyTime":"2018-07-24 18:06:32","remarks":""},{"dataSourceId":"99673b7ba2954d87a4fca5687b84cc71","dataSourceName":"oracleDB","dataSourceType":1,"modifyTime":"2018-07-24 18:06:32","remarks":""},{"dataSourceId":"92e94ce46c1046cf803dedfe2e961e22","dataSourceName":"postgre11C","dataSourceType":1,"modifyTime":"2018-07-24 18:06:32","remarks":""},{"dataSourceId":"affc3e263c8940e0ac970a80717b309f","dataSourceName":"BeyonDB","dataSourceType":1,"modifyTime":"2018-07-24 18:06:32","remarks":""},{"dataSourceId":"ff5d931b04194da9ad7b8092f95da95c","dataSourceName":"testdbsource","dataSourceType":1,"modifyTime":"2018-07-24 18:06:32","remarks":""},{"dataSourceId":"3f4591fd82814a788a2728a6913d07ce","dataSourceName":"filesource","dataSourceType":2,"modifyTime":"2018-07-24 18:06:32","remarks":""},{"dataSourceId":"c0f01744e8e94603bbcac81a8d8776d4","dataSourceName":"interfaceDB","dataSourceType":3,"modifyTime":"2018-07-24 18:06:32","remarks":""},{"dataSourceId":"4d828692f9ed48028646a7d2ab2f87b9","dataSourceName":"oracleDB","dataSourceType":1,"modifyTime":"2018-07-24 18:06:32","remarks":""},{"dataSourceId":"d1a180af095b4142904b15f7b3ca8585","dataSourceName":"","dataSourceType":1,"modifyTime":"2018-07-24 18:34:04","remarks":""},{"dataSourceId":"3e9cd6bc094b4c2a925e9f1ffb9dd238","dataSourceName":"oracleDB","dataSourceType":1,"modifyTime":"2018-07-24 18:34:04","remarks":""},{"dataSourceId":"e62dcd525742468392b9f083aa4fd838","dataSourceName":"postgre11C","dataSourceType":1,"modifyTime":"2018-07-24 18:34:05","remarks":""},{"dataSourceId":"2798d5fb8782421385f1e4595be1c6b7","dataSourceName":"BeyonDB","dataSourceType":1,"modifyTime":"2018-07-24 18:34:05","remarks":""},{"dataSourceId":"338da9ea84b540198ecb6171a73f3000","dataSourceName":"testdbsource","dataSourceType":1,"modifyTime":"2018-07-24 18:34:05","remarks":""},{"dataSourceId":"925bffa0e0e343eaadcf68229a1ee05c","dataSourceName":"filesource","dataSourceType":2,"modifyTime":"2018-07-24 18:34:05","remarks":""},{"dataSourceId":"377b9f86710144a3a5b4bd821e84c0d8","dataSourceName":"interfaceDB","dataSourceType":3,"modifyTime":"2018-07-24 18:34:05","remarks":""},{"dataSourceId":"c0d49182ae614df8b1cb0861e9d5f4c4","dataSourceName":"oracleDB","dataSourceType":1,"modifyTime":"2018-07-24 18:34:05","remarks":""},{"dataSourceId":"db49b38437dd43f1bdc4820db38ce17f","dataSourceName":"Rename@DB","dataSourceType":1,"modifyTime":"2018-07-24 18:34:05","remarks":""},{"dataSourceId":"fc33215f40dd4837aef3c86bfb5f033d","dataSourceName":"interfaceDB","dataSourceType":3,"modifyTime":"2018-07-24 10:08:20","remarks":""}],"pageNum":0,"pageSize":0,"total":32},"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testfindallindex(DataSourceControllerTest.java:500)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdatedbconninfo" time="0.006" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdatedbconninfo(DataSourceControllerTest.java:311)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testgetallinfobyid" time="0.046" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [wwww] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [wwww] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.unistrong.GeoTSD.DSAS.utils.compared.comparedZD(compared.java:204)
+  DataSourceControllerTest.testgetallinfobyid(DataSourceControllerTest.java:846)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdatefileconninfo" time="0.007" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdatefileconninfo(DataSourceControllerTest.java:366)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testgetallinfobyid" time="0.010" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found []"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found []
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testgetallinfobyid(DataSourceControllerTest.java:755)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testremove" time="0.056" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [0] but found [1]"
+              >
+<![CDATA[java.lang.AssertionError: expected [0] but found [1]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:652)
+  org.testng.Assert.assertEquals(Assert.java:662)
+  DataSourceControllerTest.testremove(DataSourceControllerTest.java:194)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testfindallindex" time="0.006" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;305&quot;}] but found [{&quot;resultData&quot;:{&quot;count&quot;:7,&quot;list&quot;:[{&quot;dataSourceId&quot;:&quot;37c66260ef804b7d9f0efa36e2b9cfa9&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-13 13:39:16&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;c748a4441aad42a0bb871d442c3f903d&quot;,&quot;dataSourceName&quot;:&quot;&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;0415e820718f4d61aff3b225d4e8240b&quot;,&quot;dataSourceName&quot;:&quot;postgre11C&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;6aaa37ba953747cf929fe628cac4e8f0&quot;,&quot;dataSourceName&quot;:&quot;BeyonDB&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;},{&quot;dataSourceId&quot;:&quot;2fa7eede2dd34bd888ef41d93da2b20b&quot;,&quot;dataSourceName&quot;:&quot;testdbsource&quot;,&quot;dataSourceType&quot;:1,&quot;modifyTime&quot;:&quot;2018-07-24 10:11:11&quot;,&quot;remarks&quot;:&quot;&quot;}],&quot;pageNum&quot;:1,&quot;pageSize&quot;:5,&quot;total&quot;:32},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"305"}] but found [{"resultData":{"count":7,"list":[{"dataSourceId":"37c66260ef804b7d9f0efa36e2b9cfa9","dataSourceName":"","dataSourceType":1,"modifyTime":"2018-07-13 13:39:16","remarks":""},{"dataSourceId":"c748a4441aad42a0bb871d442c3f903d","dataSourceName":"","dataSourceType":1,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"0415e820718f4d61aff3b225d4e8240b","dataSourceName":"postgre11C","dataSourceType":1,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"6aaa37ba953747cf929fe628cac4e8f0","dataSourceName":"BeyonDB","dataSourceType":1,"modifyTime":"2018-07-24 10:11:11","remarks":""},{"dataSourceId":"2fa7eede2dd34bd888ef41d93da2b20b","dataSourceName":"testdbsource","dataSourceType":1,"modifyTime":"2018-07-24 10:11:11","remarks":""}],"pageNum":1,"pageSize":5,"total":32},"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testfindallindex(DataSourceControllerTest.java:500)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdateinterfconninfo" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdateinterfconninfo(DataSourceControllerTest.java:421)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdatefileconninfo" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdatefileconninfo(DataSourceControllerTest.java:366)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdatefileconninfo" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"308"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdatefileconninfo(DataSourceControllerTest.java:366)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testgetbasicinfobyid" time="0.013" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found []"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found []
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testgetbasicinfobyid(DataSourceControllerTest.java:650)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testgetbasicinfobyid" time="0.004" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;301&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"301"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testgetbasicinfobyid(DataSourceControllerTest.java:650)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testrename" time="0.004" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testrename(DataSourceControllerTest.java:248)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testAddnew" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:{&quot;dataSourceId&quot;:&quot;c0d49182ae614df8b1cb0861e9d5f4c4&quot;},&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"308"}] but found [{"resultData":{"dataSourceId":"c0d49182ae614df8b1cb0861e9d5f4c4"},"resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testAddnew(DataSourceControllerTest.java:151)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdatedbconninfo" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"308"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdatedbconninfo(DataSourceControllerTest.java:311)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdateinterfconninfo" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdateinterfconninfo(DataSourceControllerTest.java:421)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testgetallinfobyid" time="0.008" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found []"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found []
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testgetallinfobyid(DataSourceControllerTest.java:755)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdatedbconninfo" time="0.003" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdatedbconninfo(DataSourceControllerTest.java:311)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testupdatedbconninfo" time="0.005" classname="DataSourceControllerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]"
+              >
+<![CDATA[java.lang.AssertionError: expected [{"resultData":"","resultState":"error","resultCode":"301"}] but found [{"resultData":"","resultState":"success","resultCode":"200"}]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  DataSourceControllerTest.testupdatedbconninfo(DataSourceControllerTest.java:311)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+  org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)
+  org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="testgetbasicinfobyid" time="0.019" classname="DataSourceControllerTest" />
+                <testcase name="testremove" time="0.046" classname="DataSourceControllerTest" />
+                <testcase name="testrename" time="0.002" classname="DataSourceControllerTest" />
+                <testcase name="testAddnew" time="0.002" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.004" classname="DataSourceControllerTest" />
+                <testcase name="testremove" time="0.144" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.020" classname="DataSourceControllerTest" />
+                <testcase name="testfindallindex" time="0.015" classname="DataSourceControllerTest" />
+                <testcase name="testAddnew" time="0.029" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.005" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.014" classname="DataSourceControllerTest" />
+                <testcase name="testgetallinfobyid" time="0.017" classname="DataSourceControllerTest" />
+                <testcase name="testremove" time="0.060" classname="DataSourceControllerTest" />
+                <testcase name="testgetallinfobyid" time="0.002" classname="DataSourceControllerTest" />
+                <testcase name="testAddnew" time="0.005" classname="DataSourceControllerTest" />
+                <testcase name="testupdatefileconninfo" time="0.012" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.006" classname="DataSourceControllerTest" />
+                <testcase name="testAddnew" time="0.025" classname="DataSourceControllerTest" />
+                <testcase name="testupdatedbconninfo" time="0.003" classname="DataSourceControllerTest" />
+                <testcase name="testfindallindex" time="0.013" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.018" classname="DataSourceControllerTest" />
+                <testcase name="testgetbasicinfobyid" time="0.021" classname="DataSourceControllerTest" />
+                <testcase name="testAddnew" time="0.003" classname="DataSourceControllerTest" />
+                <testcase name="testrename" time="0.011" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.014" classname="DataSourceControllerTest" />
+                <testcase name="testgetbasicinfobyid" time="0.029" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.012" classname="DataSourceControllerTest" />
+                <testcase name="testupdateinterfconninfo" time="0.016" classname="DataSourceControllerTest" />
+                <testcase name="testupdateinterfconninfo" time="0.004" classname="DataSourceControllerTest" />
+                <testcase name="testgetallinfobyid" time="0.018" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.016" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.013" classname="DataSourceControllerTest" />
+                <testcase name="testAddnew" time="0.098" classname="DataSourceControllerTest" />
+                <testcase name="testAddnew" time="0.021" classname="DataSourceControllerTest" />
+                <testcase name="testrename" time="0.003" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.014" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.014" classname="DataSourceControllerTest" />
+                <testcase name="testupdatefileconninfo" time="0.003" classname="DataSourceControllerTest" />
+                <testcase name="testfindbycond" time="0.015" classname="DataSourceControllerTest" />
+                <testcase name="testAddnew" time="0.023" classname="DataSourceControllerTest" />
+                <testcase name="testgetallinfobyid" time="0.018" classname="DataSourceControllerTest" />
+                <testcase name="testremove" time="0.043" classname="DataSourceControllerTest" />
+                <testcase name="testAddnew" time="0.026" classname="DataSourceControllerTest" />
+                <testcase name="testupdatedbconninfo" time="0.011" classname="DataSourceControllerTest" />
+      
+</testsuite>

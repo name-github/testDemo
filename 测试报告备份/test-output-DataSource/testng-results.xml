@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="14" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="interfaceTestReport" duration-ms="294" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+    <groups>
+    </groups>
+    <test name="接口测试" duration-ms="294" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+      <class name="DataSourceControllerTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DataSourceControllerTest@7cbd213e]" name="beforeClass" is-config="true" duration-ms="8" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DataSourceControllerTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAddnew()[pri:0, instance:DataSourceControllerTest@7cbd213e]" name="testAddnew" duration-ms="27" started-at="2018-07-04T00:56:52Z" description="测试验证新增数据源" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddnew -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DataSourceControllerTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:DataSourceControllerTest@7cbd213e]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DataSourceControllerTest -->
+      <class name="DemoControllerTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DemoControllerTest@52f759d7]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testIndexpost(java.util.Map)[pri:1, instance:DemoControllerTest@52f759d7]" name="testIndexpost" duration-ms="12" started-at="2018-07-04T00:56:52Z" description="测试验证post接口类型" data-provider="indexpost" finished-at="2018-07-04T00:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{dataSourceName=测试Oracle数据源, dataSourceType=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndexpost -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testIndexpost(java.util.Map)[pri:1, instance:DemoControllerTest@52f759d7]" name="testIndexpost" duration-ms="11" started-at="2018-07-04T00:56:52Z" description="测试验证post接口类型" data-provider="indexpost" finished-at="2018-07-04T00:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{dataSourceName=测试mysql数据源, dataSourceType=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndexpost -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testIndexpost(java.util.Map)[pri:1, instance:DemoControllerTest@52f759d7]" name="testIndexpost" duration-ms="13" started-at="2018-07-04T00:56:52Z" description="测试验证post接口类型" data-provider="indexpost" finished-at="2018-07-04T00:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{dataSourceName=测试sqlserver数据源, dataSourceType=3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndexpost -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testIndexget(java.lang.String)[pri:2, instance:DemoControllerTest@52f759d7]" name="testIndexget" duration-ms="3" started-at="2018-07-04T00:56:52Z" description="测试验证get接口类型" data-provider="indexget" finished-at="2018-07-04T00:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndexget -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testIndexget(java.lang.String)[pri:2, instance:DemoControllerTest@52f759d7]" name="testIndexget" duration-ms="2" started-at="2018-07-04T00:56:52Z" description="测试验证get接口类型" data-provider="indexget" finished-at="2018-07-04T00:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jianguo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndexget -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testIndexget(java.lang.String)[pri:2, instance:DemoControllerTest@52f759d7]" name="testIndexget" duration-ms="2" started-at="2018-07-04T00:56:52Z" description="测试验证get接口类型" data-provider="indexget" finished-at="2018-07-04T00:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[张力]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndexget -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DemoControllerTest@52f759d7]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:DemoControllerTest@52f759d7]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-04T00:56:52Z" finished-at="2018-07-04T00:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DemoControllerTest -->
+    </test> <!-- 接口测试 -->
+  </suite> <!-- interfaceTestReport -->
+</testng-results>

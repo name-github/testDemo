@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - 接口测试</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>接口测试</h1>
+<p>
+  Test duration: 0.485s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">FieldControllerTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="为指定的数据表，批量添加字段接口">testAddNews</span>
+      </td>
+  <td class="duration">
+    0.012s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"c10b529126344156be6e7db21eb7b685","newFieldInfoList":[{"dataSourceId":"","dataTableId":"c10b529126344156be6e7db21eb7b685","fieldAlias":"新增表字段","fieldId":"11111","fieldName":"1个表字段","fieldType":2,"remarks":"l","updateTime":""}]}, responseData={"resultData":"","resultState":"error","resultCode":"308"}, testType=新增字段信息重复, 是否通过=通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}] but found [{&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testAddNews(FieldControllerTest.java:83)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="为指定的数据表，批量添加字段接口">testAddNews</span>
+      </td>
+  <td class="duration">
+    0.137s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"1d0695f2deaa46a296f4568ad6893333","newFieldInfoList":[{"dataSourceId":"","dataTableId":"","fieldAlias":"id错误","fieldId":"","fieldName":"id错误","fieldType":2,"remarks":"数据表id错误","updateTime":""},{"dataSourceId":"","dataTableId":"","fieldAlias":"id不存在","fieldId":"","fieldName":"id不存在","fieldType":3,"remarks":"数据表id不存在","updateTime":""}]}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=指定的数据表id错误或不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testAddNews(FieldControllerTest.java:83)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="为指定的数据表，批量添加字段接口">testAddNews</span>
+      </td>
+  <td class="duration">
+    0.012s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"dcf669b9aa774b21a1f277200c3a0f91","newFieldInfoList":[{"dataSourceId":"","dataTableId":"b8e5e352c86848cfaa36f2eafe7c2222","fieldAlias":"不一致","fieldId":"yyyy","fieldName":"两个id不一致","fieldType":2,"remarks":"l","updateTime":""}]}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=两个DT_ID不一致, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testAddNews(FieldControllerTest.java:83)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="为指定的数据表，批量添加字段接口">testAddNews</span>
+      </td>
+  <td class="duration">
+    0.013s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"dcf669b9aa774b21a1f277200c3a0f91","newFieldInfoList":[{"dataSourceId":"","dataTableId":"dcf669b9aa774b21a1f277200c3a0f91","fieldAlias":"表字段","fieldId":"xxxx","fieldName":"表id在SJB不存在","fieldType":2,"remarks":"l","updateTime":""}]}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据表id在数据表SJB中不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testAddNews(FieldControllerTest.java:83)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="为指定的数据表，批量添加字段接口">testAddNews</span>
+      </td>
+  <td class="duration">
+    0.010s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"c10b529126344156be6e7db21eb7b685","newFieldInfoList":[{"dataSourceId":"","dataTableId":"c10b529126344156be6e7db21eb7b685","fieldAlias":"新增表字段","fieldId":"11111","fieldName":"1个表字段","fieldType":2,"remarks":"l","updateTime":""}]}, responseData=新增成功，数据库验证, testType=给指定的数据表新增1个字段, 是否通过=通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:null,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}] but found [{&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testAddNews(FieldControllerTest.java:87)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从清空指定数据表内全部字段接口">testClear</span>
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableIds":"c10b529126344156be6e7db21eb7b685"}, responseData={"resultData":"","resultState":"error","resultCode":"309"}, testType=数据表信息为空, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testClear(FieldControllerTest.java:186)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从清空指定数据表内全部字段接口">testClear</span>
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableIds":" "}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据表id为空, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testClear(FieldControllerTest.java:186)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从清空指定数据表内全部字段接口">testClear</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableIds":"b8e5e352c86848cfaa36f2eafe7c44ea"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据表id错误或不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-7">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testClear(FieldControllerTest.java:186)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从指定数据表中，移除指定字段接口">testRemove</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"b8e5e352c86848cfaa36f2eafe7c44ea","fieldIds":"b8e5e352c86848cfaa36f2eafe7c1111"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据表id错误或不存在, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-8">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testRemove(FieldControllerTest.java:144)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从指定数据表中，移除指定字段接口">testRemove</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"89c6b7b7b0c542ffaa8b7cc64c4b8fbf","fieldIds":"49c24950c86f4e42bce53abcfc3ff223"}, responseData={"resultData":"","resultState":"error","resultCode":"309"}, testType=数据表中不存在指定的字段id, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-9">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testRemove(FieldControllerTest.java:144)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定字段的基本属性接口">testUpdate</span>
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","dataTableId":"0b372e4b623b408b90b10776c567e0f8","fieldAlias":"表与表字段id不一致","fieldId":"5abd65659b7948a0a8dde01f3503b821","fieldName":"不一致","fieldType":2,"remarks":"id不一致","updateTime":""}, responseData={"resultData":"","resultState":"error","resultCode":"309"}, testType=指定的字段错误（表id与字段id对应不上）, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-10', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;309&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;308&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-10">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testUpdate(FieldControllerTest.java:270)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定字段的基本属性接口">testUpdate</span>
+      </td>
+  <td class="duration">
+    0.008s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","dataTableId":"","fieldAlias":"编辑修改字段别名","fieldId":"123445","fieldName":"字段新名称","fieldType":2,"remarks":"测试验证","updateTime":""}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据表id为空, 是否通过=未通过}</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-11', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;error&quot;,&quot;resultCode&quot;:&quot;301&quot;}] but found [{&quot;resultData&quot;:&quot;&quot;,&quot;resultState&quot;:&quot;success&quot;,&quot;resultCode&quot;:&quot;200&quot;}]</b></a><br />
+    <div class="stackTrace" id="exception-11">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              FieldControllerTest.testUpdate(FieldControllerTest.java:270)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:483)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">FieldControllerTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="为指定的数据表，批量添加字段接口">testAddNews</span>
+      </td>
+  <td class="duration">
+    0.146s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"b8e5e352c86848cfaa36f2eafe7c2222","newFieldInfoList":[{"dataSourceId":"","dataTableId":"b8e5e352c86848cfaa36f2eafe7c2222","fieldAlias":"aaaaaa","fieldId":"rrr","fieldName":"qqqqqqqqq","fieldType":2,"remarks":"第一个字段","updateTime":""},{"dataSourceId":"","dataTableId":"","fieldAlias":"bbbbbb","fieldId":"","fieldName":"wwwwwwwwwwwwwww","fieldType":3,"remarks":"第二个字段","updateTime":""},{"dataSourceId":"","dataTableId":"","fieldAlias":"鬼地方个","fieldId":"","fieldName":"eeeeeeeee","fieldType":3,"remarks":"第三个字段","updateTime":""},{"dataSourceId":"","dataTableId":"","fieldAlias":"我认为","fieldId":"","fieldName":"rrrrrrrrrr","fieldType":3,"remarks":"第四个字段","updateTime":""}]}, responseData=新增成功，数据库验证, testType=给指定的数据表新增多个字段, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="为指定的数据表，批量添加字段接口">testAddNews</span>
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"","newFieldInfoList":[{"dataSourceId":"","dataTableId":"","fieldAlias":"dbId为空","fieldId":"","fieldName":"为空","fieldType":2,"remarks":"l","updateTime":""},{"dataSourceId":"","dataTableId":"","fieldAlias":"为空","fieldId":"","fieldName":"db为空","fieldType":3,"remarks":"为空","updateTime":""}]}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=指定的数据表id为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从清空指定数据表内全部字段接口">testClear</span>
+      </td>
+  <td class="duration">
+    0.019s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableIds":"b8e5e352c86848cfaa36f2eafe7c2222,84cd3251626b43da830c2de2c6b9a344"}, responseData=指定表成功清空, testType=清空多个数据表, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从清空指定数据表内全部字段接口">testClear</span>
+      </td>
+  <td class="duration">
+    0.011s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableIds":"6a4a75780bbb4b8a9e6904e69998e5ee"}, responseData=指定表成功清空, testType=清空一个数据表, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从指定数据表中，移除指定字段接口">testRemove</span>
+      </td>
+  <td class="duration">
+    0.024s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"b8e5e352c86848cfaa36f2eafe7c2222","fieldIds":"d4505002718d4b9989d316fb908b3b6b,98a3518d63ef4ce19144e7295910181b,adf39af37de54fd2a94b74a097117aa2"}, responseData=移除成功, testType=移除多个字段, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从指定数据表中，移除指定字段接口">testRemove</span>
+      </td>
+  <td class="duration">
+    0.013s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"c10b529126344156be6e7db21eb7b685","fieldIds":"f2f64eeb91504ffb8d4f995bf2a7f11a"}, responseData=移除成功, testType=移除一个字段, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="从指定数据表中，移除指定字段接口">testRemove</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataTableId":"","fieldIds":"d91a1729b8d842338cfed7dca68308fb,8a595e393cb94cb38e96a3c7d2ee77c7"}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据表id为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定字段的基本属性接口">testUpdate</span>
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","dataTableId":"b8e5e352c86848cfaa36f2eafe7c2222","fieldAlias":"编辑修改字段别名","fieldId":"","fieldName":"字段新名称","fieldType":2,"remarks":"测试验证","updateTime":""}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=指定的字段为空, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定字段的基本属性接口">testUpdate</span>
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","dataTableId":"1234567890123456789","fieldAlias":"编辑修改字段别名","fieldId":"","fieldName":"字段新名称","fieldType":2,"remarks":"测试验证","updateTime":""}, responseData={"resultData":"","resultState":"error","resultCode":"301"}, testType=数据表id错误或不存在, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定字段的基本属性接口">testUpdate</span>
+      </td>
+  <td class="duration">
+    0.017s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","dataTableId":"90696d2be00c4b20a57220054ebc0a70","fieldAlias":"编辑修改字段别名","fieldId":"e76cbad6eba24195a406706d5ee9db3b","fieldName":"字段新名称","fieldType":2,"remarks":"测试验证","updateTime":""}, responseData=验证数据库是否正常更新, testType=编辑修改指定的字段属性信息, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑指定字段的基本属性接口">testUpdate</span>
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{postData={"dataSourceId":"","dataTableId":"0b372e4b623b408b90b10776c567e0f8","fieldAlias":"表与表字段id不一致","fieldId":"5abd65659b7948a0a8dde01f3503b821","fieldName":"不一致","fieldType":2,"remarks":"id不一致","updateTime":""}, responseData={"resultData":"","resultState":"error","resultCode":"308"}, testType=更新的字段信息重复, 是否通过=通过}</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
